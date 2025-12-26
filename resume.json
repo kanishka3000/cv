@@ -24,7 +24,7 @@
   "skills": [
     {
       "name": "Languages",
-      "keywords": ["Java (8+)", "TypeScript", "JavaScript", "C++"]
+      "keywords": ["Java (11+)", "TypeScript", "JavaScript", "C++"]
     },
     {
       "name": "Backend",
@@ -140,7 +140,7 @@
   "projects": [
     {
       "name": "Skylight – Real-Time Analytics Platform",
-      "role": "Lead Engineer",
+      "role": "Senior Engineer",
       "startDate": "2022-03",
       "description": "Real-time analytics platform providing live insights into agent and listing performance.",
       "highlights": [
@@ -155,9 +155,9 @@
       "role": "Architect & Developer",
       "startDate": "2022-06",
       "endDate": "2023-04",
-      "description": "Shared identity service used across multiple Domain internal products.",
+      "description": "Shared identity service used across multiple Domain products.",
       "highlights": [
-        "Implemented serverless workflows using AWS Lambda, DynamoDB, and CDK.",
+        "Implemented serverless workflows using AWS Lambda, DynamoDB, CDK and OIDC",
         "Reduced onboarding friction by consolidating duplicated identity logic.",
         "Applied security, observability, and scalability best practices."
       ],
@@ -165,7 +165,7 @@
     },
     {
       "name": "Self Serve – Onboarding Platform",
-      "role": "Developer",
+      "role": "Architect & Developer",
       "startDate": "2022-08",
       "endDate": "2023-10",
       "description": "Unified onboarding platform for multiple Domain products.",
@@ -181,7 +181,7 @@
       "role": "Tech Lead",
       "startDate": "2014-02",
       "endDate": "2018-07",
-      "description": "Core position and risk management system for a major financial clearing house.",
+      "description": "Core position and risk management system for London Clearing House (LCH).",
       "highlights": [
         "Led development of core Java services for position and risk management.",
         "Maintained rigorous testing culture with >95% unit test coverage.",
@@ -217,13 +217,11 @@
   "certificates": [
     {
       "name": "Certified Scrum Master",
-      "issuer": "Scrum Alliance",
-      "date": "2019"
+      "issuer": "Scrum Alliance"
     },
     {
-      "name": "Sun Certified Java Programmer",
-      "issuer": "Oracle",
-      "date": "2013"
+      "name": "Sun Certified Java Programmer & Sun Certified Web Component Developer",
+      "issuer": "Oracle"
     }
   ]
 }
