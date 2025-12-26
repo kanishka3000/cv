@@ -2,10 +2,12 @@
   "$schema": "https://jsonresume.org/schema",
   "basics": {
     "name": "Kanishka Weerasekara",
-    "label": "Senior Software Engineer / Technical Lead",
+    "label": "Senior Software Engineer",
     "email": "kkgweerasekara@gmail.com",
     "phone": "+61 432 573 022",
     "location": {
+      "address": "",
+      "postalCode": "",
       "city": "Sydney",
       "region": "NSW",
       "countryCode": "AU"
@@ -17,106 +19,164 @@
         "url": "https://linkedin.com/in/kkgweerasekara"
       }
     ],
-    "summary": "Senior Software Engineer and Technical Lead with 10+ years of experience building large-scale, mission-critical systems. Strong background in distributed systems, real-time data processing, cloud-native architectures, and developer platforms. Passionate about clean architecture, microservices, Infrastructure as Code, and high-quality engineering practices."
+    "summary": "Experienced Senior Software Engineer and Technical Lead specializing in distributed systems, real-time analytics, cloud-native architectures, and platform engineering. Proven track record of delivering high-performance, scalable solutions across real estate analytics, financial exchanges, government systems, and enterprise platforms."
   },
-
   "skills": [
     {
       "name": "Languages",
-      "keywords": ["TypeScript", "Java", "JavaScript", "SQL"]
+      "keywords": ["TypeScript", "Java", "JavaScript", "SQL", "C++"]
     },
     {
       "name": "Cloud & DevOps",
-      "keywords": ["AWS", "CDK", "Lambda", "DynamoDB", "S3", "CloudWatch", "IAM", "CI/CD"]
+      "keywords": ["AWS", "CDK", "Lambda", "DynamoDB", "S3", "CloudWatch", "CI/CD", "Serverless"]
     },
     {
       "name": "Data & Streaming",
-      "keywords": ["Apache Flink", "Real-time Data Processing", "Event-driven Architecture"]
+      "keywords": ["Apache Flink", "Event-driven Architecture", "Real-time Analytics", "Streaming Pipelines"]
     },
     {
-      "name": "Backend",
-      "keywords": ["Serverless", "Spring Boot", "Node.js", "REST APIs"]
+      "name": "Architecture & Design",
+      "keywords": ["Microservices", "Distributed Systems", "Clean Architecture", "Domain-Driven Design"]
     },
     {
-      "name": "Frontend",
-      "keywords": ["React", "GraphQL"]
-    },
-    {
-      "name": "Architecture",
-      "keywords": ["Microservices", "Distributed Systems", "Clean Architecture", "DDD"]
+      "name": "Tools & Platforms",
+      "keywords": ["Git", "Docker", "Kubernetes (basic)", "Jenkins", "Monitoring/Observability"]
     }
   ],
-
   "work": [
+  {
+    "company": "Domain Group",
+    "position": "Senior Software Engineer",
+    "location": "Sydney, NSW, Australia",
+    "startDate": "2022-03",
+    "summary": "Senior engineer working on real-time analytics and shared platforms for real estate agents.",
+    "highlights": [
+      "Built real-time analytics using Apache Flink for agent performance insights.",
+      "Developed serverless platforms on AWS using Lambda, DynamoDB, and CDK.",
+      "Contributed to shared onboarding and identity systems across multiple products.",
+      "Collaborated with product, data, and platform teams on production systems."
+    ]
+  },
+  {
+    "company": "Compono Pty Ltd",
+    "position": "Senior Full Stack Developer",
+    "location": "Australia",
+    "startDate": "2021-04",
+    "endDate": "2022-03",
+    "summary": "Senior developer on a cloud-based learning platform for government and enterprise clients.",
+    "highlights": [
+      "Migrated the platform from Azure to AWS.",
+      "Improved stability through refactoring and production diagnostics.",
+      "Delivered backend and frontend features in a regulated environment."
+    ]
+  },
+  {
+    "company": "ICT Agency",
+    "position": "Technical Lead / Senior Full Stack Engineer",
+    "location": "Sri Lanka",
+    "startDate": "2020-03",
+    "endDate": "2021-01",
+    "summary": "Technical lead for national-scale digital identity and verification systems.",
+    "highlights": [
+      "Architected secure identity verification services for financial institutions.",
+      "Led a small engineering team and worked with government stakeholders.",
+      "Established testing and delivery best practices."
+    ]
+  },
+  {
+    "company": "QuEST Global",
+    "position": "Senior Software Engineer",
+    "location": "Singapore",
+    "startDate": "2018-07",
+    "endDate": "2019-12",
+    "summary": "Senior engineer on large-scale transport and control systems.",
+    "highlights": [
+      "Lead engineer for station control systems in Singapore’s rail network.",
+      "Designed scalable backend services and APIs.",
+      "Contributed to cloud deployment evaluations."
+    ]
+  },
+  {
+    "company": "London Stock Exchange Group",
+    "position": "Senior Software Engineer / Associate Tech Lead",
+    "location": "Sri Lanka",
+    "startDate": "2011-09",
+    "endDate": "2018-07",
+    "summary": "Engineer and tech lead on mission-critical, low-latency trading and clearing platforms.",
+    "highlights": [
+      "Led development of core components for clearing and trading systems.",
+      "Worked on sub-millisecond latency systems with high reliability requirements.",
+      "Promoted to Associate Tech Lead within four years."
+    ]
+  }
+],
+  "projects": [
     {
-      "name": "Domain Group",
-      "location": "Sydney, NSW, Australia",
-      "position": "Senior Software Engineer",
+      "name": "Skylight – Real-Time Analytics Platform",
+      "role": "Lead Engineer",
       "startDate": "2022-03",
-      "summary": "Senior engineer working on agent-facing platforms and real-time analytics products within Agent Solutions and Skylight.",
+      "endDate": "Present",
+      "description": "A real-time analytics platform providing live insights into agent listing performance and engagement.",
       "highlights": [
-        "Worked on the Skylight product to provide real-time insights into agent listings and performance.",
-        "Designed and maintained Apache Flink pipelines to process real-time listing and event data.",
-        "Built scalable, low-latency data processing systems to surface live statistics and insights to users.",
-        "Developed the Aligned Identity project using AWS serverless architecture (Lambda, DynamoDB, CDK).",
-        "Contributed to the Self Serve platform, enabling agents from multiple products (RealtimeAgent, Homepass, Agent Admin) to onboard via a unified experience.",
-        "Applied Infrastructure as Code using AWS CDK to ensure consistent and repeatable deployments.",
-        "Collaborated closely with product, data, and platform teams to deliver reliable, production-grade systems."
-      ]
+        "Designed streaming pipelines using Apache Flink to compute real-time metrics across millions of events.",
+        "Collaborated with product and UX teams to surface actionable insights for agents via dashboards.",
+        "Optimized throughput and latency to meet demanding SLAs for live dashboards."
+      ],
+      "keywords": ["Apache Flink", "Real-Time Analytics", "Streaming"]
     },
     {
-      "name": "Compono Pty Ltd",
-      "location": "Australia",
-      "position": "Senior Full Stack Developer",
-      "startDate": "2021-04",
-      "endDate": "2022-03",
-      "summary": "Senior full stack developer working on a large-scale learning management platform.",
+      "name": "Aligned Identity Platform",
+      "role": "Architect & Developer",
+      "startDate": "2022-06",
+      "endDate": "2023-04",
+      "description": "A shared identity service used across Domain internal products to unify agent identity handling.",
       "highlights": [
-        "Migrated the platform from Azure to AWS.",
-        "Improved stability and performance through refactoring and better observability.",
-        "Built backend services and frontend features using modern Java and JavaScript stacks.",
-        "Introduced improved debugging and monitoring practices for production systems."
-      ]
+        "Implemented using AWS Lambda, DynamoDB, CDK with event-driven design.",
+        "Reduced onboarding friction and duplicated identity logic across products.",
+        "Applied best practices for security, observability, and scalability."
+      ],
+      "keywords": ["Serverless", "AWS CDK", "DynamoDB"]
     },
     {
-      "name": "ICT Agency of Sri Lanka",
-      "location": "Colombo, Sri Lanka",
-      "position": "Technical Lead (Full Stack – Java/JS)",
-      "startDate": "2020-03",
-      "endDate": "2021-01",
-      "summary": "Technical lead for government digital platforms.",
+      "name": "Self Serve – Onboarding Platform",
+      "role": "Developer",
+      "startDate": "2022-08",
+      "endDate": "2023-10",
+      "description": "Platform to streamline onboarding across multiple Domain products.",
       "highlights": [
-        "Led the design and development of national-scale digital identity and validation systems.",
-        "Architected secure, scalable microservices-based solutions.",
-        "Worked closely with government stakeholders to capture and refine requirements.",
-        "Mentored engineers and enforced engineering best practices."
-      ]
+        "Unified onboarding process for products like RealtimeAgent, Homepass, and Agent Admin.",
+        "Improved data consistency and reduced support overhead.",
+        "Designed extensible workflows for future product expansion."
+      ],
+      "keywords": ["Platform Engineering", "Microservices"]
     },
     {
-      "name": "QuEST Global",
-      "location": "Singapore",
-      "position": "Senior Software Engineer",
-      "startDate": "2018-07",
-      "endDate": "2019-12",
-      "highlights": [
-        "Worked on large-scale transport and control systems.",
-        "Designed and developed backend services with a strong focus on reliability and performance."
-      ]
-    },
-    {
-      "name": "London Stock Exchange Group",
-      "location": "Sri Lanka",
-      "position": "Senior Software Engineer / Tech Lead",
-      "startDate": "2011-09",
+      "name": "Clearing House Core System",
+      "role": "Tech Lead",
+      "startDate": "2014-02",
       "endDate": "2018-07",
+      "description": "Core position and risk management system for a major financial clearing house.",
       "highlights": [
-        "Worked on high-performance trading and clearing systems.",
-        "Led teams delivering low-latency, mission-critical financial software.",
-        "Applied rigorous test-driven development and CI/CD practices."
-      ]
+        "Led the team delivering high-performance, low-latency infrastructure.",
+        "Maintained rigorous testing culture with >95% unit test coverage.",
+        "Improved performance to meet real-time clearing requirements."
+      ],
+      "keywords": ["Low Latency", "Financial Systems"]
+    },
+    {
+      "name": "Millennium Exchange Development",
+      "role": "Developer",
+      "startDate": "2012-01",
+      "endDate": "2014-01",
+      "description": "High-performance trading engine used across global exchanges.",
+      "highlights": [
+        "Developed core gateway and pricing components.",
+        "Worked on sub-100 microsecond performance optimizations.",
+        "Collaborated with cross-region teams for production rollout."
+      ],
+      "keywords": ["Trading Systems", "Distributed Systems"]
     }
   ],
-
   "education": [
     {
       "institution": "University of Colombo School of Computing",
@@ -126,16 +186,16 @@
       "endDate": "2011"
     }
   ],
-
   "certificates": [
     {
       "name": "Certified Scrum Master",
-      "issuer": "Scrum Alliance"
+      "issuer": "Scrum Alliance",
+      "date": "2019"
     },
     {
       "name": "Sun Certified Java Programmer",
-      "issuer": "Oracle"
+      "issuer": "Oracle",
+      "date": "2013"
     }
   ]
 }
-

@@ -4,14 +4,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "export:macchiato": "px resumed export resume.json --theme jsonresume-theme-macchiato --output resume.pdf"
+    "export:macchiato": "npx resumed export resume.json --theme jsonresume-theme-macchiato --output resume.pdf"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "jsonresume-theme-macchiato": "^1.1.0",
+    "@warleon/jsonresume-theme-compact": "^0.0.12",
+    "jsonresume-theme-macchiato": "file:../Work/jsonresume-theme-macchiato",
     "puppeteer": "^24.34.0",
     "resumed": "^6.1.0"
   }
